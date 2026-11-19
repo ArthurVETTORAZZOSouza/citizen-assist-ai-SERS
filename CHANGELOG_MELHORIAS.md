@@ -1,6 +1,6 @@
 # Registro de Evolução e Melhorias — Citizen Assist AI (Energia)
 
-Este documento registra as melhorias implementadas no protótipo a partir dos testes de usabilidade realizados com usuários simulados e reais, detalhando o problema encontrado, a solução técnica aplicada e o resultado esperado.
+Este documento registra as melhorias implementadas no protótipo a partir dos testes de usabilidade realizados com usuários reais, detalhando o problema encontrado, a solução técnica aplicada e o resultado esperado.
 
 ---
 
