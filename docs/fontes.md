@@ -1,6 +1,6 @@
 # Fontes e referências
 
-Acesso em 13/11/2026. Antes de entregar, **abra cada link e confira o número usado** (o grupo é responsável por verificar dados e referências).
+Acesso em 13/11/2026. Referências consultadas em novembro de 2026. (o grupo é responsável por verificar dados e referências).
 
 | Id  | Fonte | O que sustenta | Tipo de dado |
 |-----|---|---|---|
