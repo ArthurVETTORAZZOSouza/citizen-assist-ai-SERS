@@ -1,0 +1,238 @@
+{
+  "referencias": {
+    "R1": "Agência Minas / Cemig (02/06/2026): simulação com chuveiro de 5.500 W, 4 pessoas, banho de 12 para 8 minutos e economia de R$ 50,54. https://www.agenciaminas.mg.gov.br/noticia/confira-como-pequenas-mudancas-podem-reduzir-o-valor-da-conta-de-luz-130200",
+    "R2": "Dissertação PUC-Rio sobre hábitos de banho e consumo (cita estimativas do Procel de 8 a 10 minutos por banho). https://www.maxwell.vrac.puc-rio.br/25584/25584.PDF",
+    "R3": "Idec (atualizado em 17/04/2025): como calcular o custo do chuveiro, custo, retorno e vida útil do aquecedor solar, apartamentos e redução da demanda no pico. https://idec.org.br/dicas-e-direitos/economia-com-aquecedor-solar",
+    "R4": "Classes de eficiência de coletores solares do Inmetro/PBE (PMEe), conforme artigo do CBENS. https://anaiscbens.emnuvens.com.br/cbens/article/download/2083/2066/2067",
+    "R5": "MCTI: fator médio de emissão de CO2 da geração elétrica em 2023 (38,5 kg CO2/MWh), confirmado também em reportagem da Eixos. https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2024/02/fator-de-emissao-de-co2-na-geracao-de-energia-eletrica-no-brasil-em-2023-e-o-menor-em-12-anos | https://eixos.com.br/brasil-tem-menor-taxa-de-emissao-de-carbono-na-geracao-eletrica-em-onze-anos/",
+    "R6": "Cenário Energia: fator de emissão do SIN em 2025 (MCTI). https://cenarioenergia.com.br/2025/06/13/brasil-reduz-intensidade-de-carbono-na-geracao-eletrica-com-inclusao-de-novas-renovaveis-na-base-de-calculo-oficial/",
+    "R7": "Tarifas B1 da Enel SP (TUSD e TE), conferir na tabela de tarifas da Enel SP e na resolução homologatória da ANEEL. https://www.aneel.gov.br",
+    "R8": "Reajuste tarifário da Enel SP a partir de 04/07/2026 (classe B1: 9,02%). https://cenarioenergia.com.br/2026/06/30/aneel-aprova-reajuste-da-enel-sao-paulo-com-efeito-medio-de-1018/",
+    "R9": "ANEEL, portal de dados abertos: base SAMP (Sistema de Acompanhamento de Informações de Mercado para Regulação Econômica). https://dadosabertos.aneel.gov.br",
+    "R10": "Procel: pesquisa de posse e hábitos de uso de equipamentos elétricos (PPH 2019, versão web). https://wp.ufpel.edu.br/proben/procel-lanca-versao-web-de-pesquisa-sobre-uso-de-equipamentos-eletricos-nas-residencias-brasileiras/",
+    "R11": "Idec: guia sobre a Tarifa Social de Energia Elétrica. https://idec.org.br/dicas-e-direitos/saiba-como-pedir-tarifa-social-de-energia-eletrica-e-pague-menos",
+    "R12": "Komeco, ficha técnica da linha de coletores solares Maxime Prime: modelo 1,5 Maxime, classe A do Inmetro, 1,46 m2, 121,4 kWh/mês por coletor; o fabricante divulga economia de até 70% no aquecimento da água (alegação do fabricante). https://www.komeco.com.br/arquivos/datasheet/aquecimento-solar/coletor-solar/datasheet-coletor-solar-linha-maxime-prime.pdf",
+    "R13": "ANEEL / Procel: orientações de uso eficiente do chuveiro elétrico (posição Verão reduz o consumo em cerca de 30% em relação à posição Inverno). https://www.gov.br"
+  },
+  "topicos": [
+    {
+      "id": "sobre",
+      "palavras_chave": [
+        "quem e voce",
+        "quem voce",
+        "o que voce faz",
+        "assistente",
+        "oficial",
+        "ajuda",
+        "para que serve",
+        "o que e"
+      ],
+      "resposta": "Sou o Citizen Assist AI, um protótipo educacional sobre uso consciente de energia. Ajudo a estimar quanto o chuveiro elétrico pesa na conta e a comparar alternativas. Não sou um canal oficial da Enel, da ANEEL ou do governo, não peço dados pessoais e meus números são estimativas.",
+      "referencias": []
+    },
+    {
+      "id": "custo_chuveiro",
+      "palavras_chave": [
+        "quanto gasta",
+        "quanto custa",
+        "gasto",
+        "consumo",
+        "chuveiro",
+        "conta de luz",
+        "kwh",
+        "potencia"
+      ],
+      "resposta": "O gasto do chuveiro depende de três coisas: a potência (em watts), o tempo de banho e quantas pessoas tomam banho. A energia em kWh é a potência em watts vezes as horas de uso e os dias do mês, dividido por 1.000. Por exemplo, um chuveiro de 5.500 W usado por 1 hora por dia, durante 30 dias, consome cerca de 165 kWh no mês. Para calcular com os seus dados, use a opção 1 do menu.",
+      "referencias": [
+        "R1",
+        "R3",
+        "R10"
+      ],
+      "acao": "calcular"
+    },
+    {
+      "id": "uso_consciente",
+      "palavras_chave": [
+        "economizar",
+        "reduzir",
+        "diminuir",
+        "banho curto",
+        "tempo de banho",
+        "dicas",
+        "dica",
+        "gastar menos"
+      ],
+      "resposta": "O jeito mais simples de gastar menos é encurtar o banho. Em uma simulação da Cemig, com chuveiro de 5.500 W e 4 pessoas, reduzir o banho de 12 para 8 minutos economiza cerca de R$ 50 por mês naquela distribuidora. O Procel estima que um banho típico dura de 8 a 10 minutos. Para ver o efeito no seu caso, use a opção 2 do menu.",
+      "referencias": [
+        "R1",
+        "R2"
+      ],
+      "acao": "comparar"
+    },
+    {
+      "id": "solar_custo",
+      "palavras_chave": [
+        "solar",
+        "aquecedor solar",
+        "painel",
+        "retorno",
+        "investimento",
+        "compensa",
+        "vale a pena",
+        "paga"
+      ],
+      "resposta": "O aquecedor solar costuma valer a pena quando três condições acontecem juntas: 1) há 3 ou mais moradores tomando banho quente todo dia (quanto maior o gasto atual, mais rápido o retorno); 2) você mora em casa própria ou tem autorização do condomínio, pois exige instalação no telhado; e 3) o imóvel recebe boa incidência de sol sem sombras constantes. Segundo o Idec, o sistema residencial custa de R$ 3.000 a R$ 6.000 e se paga entre 2 e 7 anos. Para simular o tempo exato de retorno para a sua casa, use a opção 2 do menu.",
+      "referencias": [
+        "R3",
+        "R12"
+      ],
+      "acao": "comparar"
+    },
+    {
+      "id": "solar_como",
+      "palavras_chave": [
+        "como funciona o aquecedor",
+        "coletor",
+        "boiler",
+        "reservatorio",
+        "apartamento",
+        "instalar",
+        "instalacao",
+        "nublado",
+        "inverno"
+      ],
+      "resposta": "O aquecedor solar usa coletores no telhado para esquentar a água, que fica guardada em um reservatório (boiler). Os coletores de placa plana são os mais comuns no Brasil; os de tubo a vácuo custam mais e são indicados para regiões frias ou muito nubladas. Em dias nublados ou no inverno, uma resistência elétrica de apoio complementa o aquecimento, por isso a economia não é de 100%. Em apartamentos, o caminho mais simples é propor ao condomínio um sistema coletivo, ou pedir autorização para instalar um sistema próprio no telhado.",
+      "referencias": [
+        "R3",
+        "R4"
+      ]
+    },
+    {
+      "id": "emissoes",
+      "palavras_chave": [
+        "co2",
+        "carbono",
+        "emissao",
+        "emissoes",
+        "ambiente",
+        "ambiental",
+        "sustentavel",
+        "sustentabilidade",
+        "renovavel"
+      ],
+      "resposta": "No Brasil a rede elétrica já é muito limpa: o fator médio de emissão em 2023 foi de 38,5 kg de CO2 por MWh. Por isso o ganho de CO2 de trocar o chuveiro por aquecimento solar é pequeno em termos absolutos. O benefício mais forte está no custo; o Idec também aponta que o aquecedor solar alivia a demanda sobre o sistema elétrico nos horários de pico.",
+      "referencias": [
+        "R5",
+        "R6",
+        "R3"
+      ]
+    },
+    {
+      "id": "tarifa",
+      "palavras_chave": [
+        "tarifa",
+        "preco do kwh",
+        "reajuste",
+        "imposto",
+        "impostos",
+        "bandeira",
+        "icms",
+        "valor do kwh"
+      ],
+      "resposta": "O preço do kWh na sua conta inclui a tarifa da distribuidora (TUSD e TE) mais tributos. Para a Enel SP, estimei cerca de R$ 1,01 por kWh com tributos, usando a tarifa B1 antes do reajuste de julho de 2026 e o reajuste de 9,02%. É uma estimativa: o melhor é digitar o valor que aparece na sua conta.",
+      "referencias": [
+        "R7",
+        "R8"
+      ]
+    },
+    {
+      "id": "dados_enel",
+      "palavras_chave": [
+        "enel",
+        "sao paulo",
+        "regiao",
+        "dados",
+        "samp",
+        "aneel",
+        "media",
+        "metropolitana"
+      ],
+      "resposta": "Uso dados reais da base SAMP da ANEEL para a Enel SP em 2025. Para ver os números, use a opção 5 do menu. A Enel SP atende 24 municípios da região metropolitana, mas algumas cidades da região são atendidas por outras distribuidoras.",
+      "referencias": [
+        "R9"
+      ],
+      "acao": "dados"
+    },
+    {
+      "id": "baixa_renda",
+      "palavras_chave": [
+        "tarifa social",
+        "baixa renda",
+        "desconto",
+        "idoso",
+        "cadunico",
+        "beneficio",
+        "limite de consumo",
+        "220 kwh"
+      ],
+      "resposta": "Famílias inscritas no CadÚnico (com renda mensal de até meio salário mínimo por pessoa) ou que tenham idosos/pessoas com deficiência recebendo o BPC têm direito à Tarifa Social de Energia Elétrica. O desconto é automático para consumo mensal de até 220 kWh (variando de 10% a 65% conforme a faixa de consumo). Verifique na sua conta de luz se a subclasse já consta como 'Residencial Baixa Renda' ou procure a distribuidora com o número do NIS.",
+      "referencias": [
+        "R11"
+      ]
+    },
+        {
+      "id": "limitacoes",
+      "palavras_chave": [
+        "limite",
+        "limitacao",
+        "limitacoes",
+        "garantia",
+        "garantido",
+        "erro",
+        "confiavel",
+        "preciso",
+        "certeza",
+        "verdade"
+      ],
+      "resposta": "Meus números são estimativas, não garantias. Eles dependem da potência do chuveiro, do tempo de banho, da tarifa, do clima e do custo real de instalação do aquecedor solar. Não considero manutenção, financiamento nem a variação mês a mês entre verão e inverno. Use os resultados como orientação e confirme com sua conta de luz e com orçamentos.",
+      "referencias": [
+        "R3",
+        "R7"
+      ]
+    },
+    {
+      "id": "chave_verao_inverno",
+      "palavras_chave": [
+        "chave",
+        "verao",
+        "inverno",
+        "posicao",
+        "morno",
+        "temperatura",
+        "seletor"
+      ],
+      "resposta": "Mudar a chave seletora do chuveiro da posição Inverno (potência máxima) para a posição Verão reduz o consumo de energia elétrica em cerca de 30% a 40% durante o banho. Em um chuveiro de 5.500 W, isso equivale a baixar a potência para cerca de 3.200 W a 3.800 W, gerando economia imediata sem gastar nada.",
+      "referencias": [
+        "R13",
+        "R1"
+      ],
+      "acao": "calcular"
+    },
+    {
+      "id": "imovel_alugado",
+      "palavras_chave": [
+        "alugado",
+        "aluguel",
+        "inquilino",
+        "sem obra",
+        "nao posso instalar",
+        "nao pode instalar"
+      ],
+      "resposta": "Para quem mora em imóvel alugado e não pode fazer obras ou instalar aquecedor solar, as melhores ações de custo zero são: mudar a chave do chuveiro para a posição Verão (economiza cerca de 30%), reduzir o tempo de banho e fechar o registro ao se ensaboar. Manter os furos do espalhador limpos também ajuda a esquentar a água sem precisar aumentar a potência.",
+      "referencias": [
+        "R1",
+        "R13"
+      ]
+    }
+  ]
+}

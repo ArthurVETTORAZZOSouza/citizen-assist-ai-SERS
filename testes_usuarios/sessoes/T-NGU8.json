@@ -1,0 +1,22 @@
+{
+  "codigo": "T-NGU8",
+  "inicio": "2026-11-18T22:35:33",
+  "fim": "2026-11-18T23:24:53",
+  "duracao_total_s": 2960.3,
+  "opcoes_usadas": [
+    "1",
+    "1",
+    "2",
+    "4",
+    "4",
+    "2",
+    "3",
+    "7"
+  ],
+  "erros_de_entrada": 7,
+  "tempo_s1_segundos": 64.5,
+  "perguntas_livres_topicos": [
+    "solar_custo"
+  ],
+  "perguntas_livres_sem_resposta": 0
+}

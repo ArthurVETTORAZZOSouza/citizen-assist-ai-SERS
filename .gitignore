@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.venv/
+samp-2025.csv
+.idea/

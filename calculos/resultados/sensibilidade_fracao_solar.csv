@@ -1,0 +1,25 @@
+cenario,alternativa,kwh_mes,custo_mes_rs,custo_ano_rs,economia_kwh_ano,economia_ano_rs,investimento_rs,payback_anos,custo_total_horizonte_rs,co2_evitado_kg_ano
+fração solar 40%,Situação atual (chuveiro elétrico),132.0,133.7811,1605.3737,0.0,0.0,0.0,,16053.7375,0.0
+fração solar 40%,A) Uso consciente (banho mais curto),88.0,89.1874,1070.2492,528.0,535.1246,0.0,,10702.4917,20.328
+fração solar 40%,B) Aquecedor solar com apoio elétrico,79.2,80.2687,963.2242,633.6,642.1495,4500.0,7.0077,14132.2425,24.3936
+fração solar 40%,A+B) Uso consciente e aquecedor solar,52.8,53.5125,642.1495,950.4,963.2242,4500.0,4.6718,10921.495,36.5904
+fração solar 50%,Situação atual (chuveiro elétrico),132.0,133.7811,1605.3737,0.0,0.0,0.0,,16053.7375,0.0
+fração solar 50%,A) Uso consciente (banho mais curto),88.0,89.1874,1070.2492,528.0,535.1246,0.0,,10702.4917,20.328
+fração solar 50%,B) Aquecedor solar com apoio elétrico,66.0,66.8906,802.6869,792.0,802.6869,4500.0,5.6062,12526.8687,30.492
+fração solar 50%,A+B) Uso consciente e aquecedor solar,44.0,44.5937,535.1246,1056.0,1070.2492,4500.0,4.2046,9851.2458,40.656
+fração solar 60%,Situação atual (chuveiro elétrico),132.0,133.7811,1605.3737,0.0,0.0,0.0,,16053.7375,0.0
+fração solar 60%,A) Uso consciente (banho mais curto),88.0,89.1874,1070.2492,528.0,535.1246,0.0,,10702.4917,20.328
+fração solar 60%,B) Aquecedor solar com apoio elétrico,52.8,53.5125,642.1495,950.4,963.2242,4500.0,4.6718,10921.495,36.5904
+fração solar 60%,A+B) Uso consciente e aquecedor solar,35.2,35.675,428.0997,1161.6,1177.2741,4500.0,3.8224,8780.9967,44.7216
+fração solar 70%,Situação atual (chuveiro elétrico),132.0,133.7811,1605.3737,0.0,0.0,0.0,,16053.7375,0.0
+fração solar 70%,A) Uso consciente (banho mais curto),88.0,89.1874,1070.2492,528.0,535.1246,0.0,,10702.4917,20.328
+fração solar 70%,B) Aquecedor solar com apoio elétrico,39.6,40.1343,481.6121,1108.8,1123.7616,4500.0,4.0044,9316.1212,42.6888
+fração solar 70%,A+B) Uso consciente e aquecedor solar,26.4,26.7562,321.0747,1267.2,1284.299,4500.0,3.5039,7710.7475,48.7872
+fração solar 80%,Situação atual (chuveiro elétrico),132.0,133.7811,1605.3737,0.0,0.0,0.0,,16053.7375,0.0
+fração solar 80%,A) Uso consciente (banho mais curto),88.0,89.1874,1070.2492,528.0,535.1246,0.0,,10702.4917,20.328
+fração solar 80%,B) Aquecedor solar com apoio elétrico,26.4,26.7562,321.0747,1267.2,1284.299,4500.0,3.5039,7710.7475,48.7872
+fração solar 80%,A+B) Uso consciente e aquecedor solar,17.6,17.8375,214.0498,1372.8,1391.3239,4500.0,3.2343,6640.4983,52.8528
+fração solar 90%,Situação atual (chuveiro elétrico),132.0,133.7811,1605.3737,0.0,0.0,0.0,,16053.7375,0.0
+fração solar 90%,A) Uso consciente (banho mais curto),88.0,89.1874,1070.2492,528.0,535.1246,0.0,,10702.4917,20.328
+fração solar 90%,B) Aquecedor solar com apoio elétrico,13.2,13.3781,160.5374,1425.6,1444.8364,4500.0,3.1145,6105.3737,54.8856
+fração solar 90%,A+B) Uso consciente e aquecedor solar,8.8,8.9187,107.0249,1478.4,1498.3488,4500.0,3.0033,5570.2492,56.9184

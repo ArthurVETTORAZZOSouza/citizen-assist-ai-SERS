@@ -1,0 +1,4 @@
+# O assistente e os cálculos usam apenas a biblioteca padrão do Python 3.9+.
+# Opcional, só para gerar os gráficos (calculos/comparacao_alternativas.py) e reprocessar a base SAMP (dados/):
+matplotlib
+pandas

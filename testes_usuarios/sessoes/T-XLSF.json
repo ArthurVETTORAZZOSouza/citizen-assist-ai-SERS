@@ -1,0 +1,22 @@
+{
+  "codigo": "T-XLSF",
+  "inicio": "2026-11-19T02:36:10",
+  "fim": "2026-11-19T02:46:03",
+  "duracao_total_s": 593.6,
+  "opcoes_usadas": [
+    "1",
+    "5",
+    "5",
+    "5",
+    "5",
+    "5",
+    "5",
+    "7"
+  ],
+  "erros_de_entrada": 2,
+  "tempo_s1_segundos": 22.0,
+  "perguntas_livres_topicos": [
+    "solar_como"
+  ],
+  "perguntas_livres_sem_resposta": 0
+}

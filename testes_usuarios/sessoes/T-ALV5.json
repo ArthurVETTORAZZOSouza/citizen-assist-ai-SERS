@@ -1,0 +1,19 @@
+{
+  "codigo": "T-ALV5",
+  "inicio": "2026-11-19T00:35:48",
+  "fim": "2026-11-19T00:46:39",
+  "duracao_total_s": 650.6,
+  "opcoes_usadas": [
+    "1",
+    "2",
+    "7",
+    "7"
+  ],
+  "erros_de_entrada": 1,
+  "tempo_s1_segundos": 150.2,
+  "perguntas_livres_topicos": [
+    "baixa_renda",
+    "solar_custo"
+  ],
+  "perguntas_livres_sem_resposta": 0
+}

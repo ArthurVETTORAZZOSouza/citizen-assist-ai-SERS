@@ -1,0 +1,13 @@
+cenario,alternativa,kwh_mes,custo_mes_rs,custo_ano_rs,economia_kwh_ano,economia_ano_rs,investimento_rs,payback_anos,custo_total_horizonte_rs,co2_evitado_kg_ano
+tarifa R$ 0.80/kWh,Situação atual (chuveiro elétrico),132.0,105.6,1267.2,0.0,0.0,0.0,,12672.0,0.0
+tarifa R$ 0.80/kWh,A) Uso consciente (banho mais curto),88.0,70.4,844.8,528.0,422.4,0.0,,8448.0,20.328
+tarifa R$ 0.80/kWh,B) Aquecedor solar com apoio elétrico,52.8,42.24,506.88,950.4,760.32,4500.0,5.9186,9568.8,36.5904
+tarifa R$ 0.80/kWh,A+B) Uso consciente e aquecedor solar,35.2,28.16,337.92,1161.6,929.28,4500.0,4.8425,7879.2,44.7216
+tarifa R$ 1.01/kWh,Situação atual (chuveiro elétrico),132.0,133.782,1605.384,0.0,0.0,0.0,,16053.84,0.0
+tarifa R$ 1.01/kWh,A) Uso consciente (banho mais curto),88.0,89.188,1070.256,528.0,535.128,0.0,,10702.56,20.328
+tarifa R$ 1.01/kWh,B) Aquecedor solar com apoio elétrico,52.8,53.5128,642.1536,950.4,963.2304,4500.0,4.6718,10921.536,36.5904
+tarifa R$ 1.01/kWh,A+B) Uso consciente e aquecedor solar,35.2,35.6752,428.1024,1161.6,1177.2816,4500.0,3.8224,8781.024,44.7216
+tarifa R$ 1.20/kWh,Situação atual (chuveiro elétrico),132.0,158.4,1900.8,0.0,0.0,0.0,,19008.0,0.0
+tarifa R$ 1.20/kWh,A) Uso consciente (banho mais curto),88.0,105.6,1267.2,528.0,633.6,0.0,,12672.0,20.328
+tarifa R$ 1.20/kWh,B) Aquecedor solar com apoio elétrico,52.8,63.36,760.32,950.4,1140.48,4500.0,3.9457,12103.2,36.5904
+tarifa R$ 1.20/kWh,A+B) Uso consciente e aquecedor solar,35.2,42.24,506.88,1161.6,1393.92,4500.0,3.2283,9568.8,44.7216

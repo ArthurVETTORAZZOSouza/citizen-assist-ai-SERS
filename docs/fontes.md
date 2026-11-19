@@ -1,0 +1,29 @@
+# Fontes e referências
+
+Acesso em 13/11/2026. Antes de entregar, **abra cada link e confira o número usado** (o grupo é responsável por verificar dados e referências).
+
+| Id  | Fonte | O que sustenta | Tipo de dado |
+|-----|---|---|---|
+| R1  | Agência Minas / Cemig (02/06/2026), simulação com chuveiro de 5.500 W e 4 pessoas (banho de 12 para 8 min, economia de R$ 50,54): https://www.agenciaminas.mg.gov.br/noticia/confira-como-pequenas-mudancas-podem-reduzir-o-valor-da-conta-de-luz-130200 | Caso-base (potência, pessoas, tempos de banho) e verificação cruzada do cálculo | Referência (simulação de uma distribuidora de MG); texto da página consultado em 16/11/2026 |
+| R2  | Dissertação PUC-Rio sobre hábitos de banho (cita estimativas do Procel de 8 a 10 min): https://www.maxwell.vrac.puc-rio.br/25584/25584.PDF | Duração típica do banho | Estimativa de pesquisa |
+| R3  | Idec, Veja como fazer economia com aquecedor solar (atualizado em 17/04/2025): https://idec.org.br/dicas-e-direitos/economia-com-aquecedor-solar | Fórmula do custo do chuveiro (potência x horas x dias ÷ 1.000, com exemplo de 165 kWh e R$ 122,10 a R$ 0,74/kWh); custo do sistema (R$ 3.000 a R$ 6.000, que varia com o número de moradores); retorno (2 a 7 anos); vida útil (coletor 15 a 25 anos, boiler 10 a 15); apartamentos; redução da demanda no pico | Estimativa de entidade de defesa do consumidor; texto da página consultado em 16/11/2026 |
+| R4  | Classes de eficiência de coletores solares do Inmetro/PBE (PMEe), artigo do CBENS: https://anaiscbens.emnuvens.com.br/cbens/article/download/2083/2066/2067 | Faixas de PMEe por classe (A acima de 80,3; B de 73,3 a 80,3 kWh/m2.mês); usadas para conferir o coletor de referência | Dado oficial citado em artigo |
+| R5  | MCTI, fator de emissão de CO2 da geração elétrica em 2023 (38,5 kg CO2/MWh): https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2024/02/fator-de-emissao-de-co2-na-geracao-de-energia-eletrica-no-brasil-em-2023-e-o-menor-em-12-anos ; reportagem de apoio da Eixos: https://eixos.com.br/brasil-tem-menor-taxa-de-emissao-de-carbono-na-geracao-eletrica-em-onze-anos/ | Emissões evitadas | Dado oficial; **abrir a página do MCTI no navegador e conferir o valor** (a ferramenta automática de consulta foi bloqueada por verificação anti-robô) |
+| R6  | Cenário Energia, fator de emissão do SIN em 2025 (28,9 kg CO2/MWh em abril): https://cenarioenergia.com.br/2025/06/13/brasil-reduz-intensidade-de-carbono-na-geracao-eletrica-com-inclusao-de-novas-renovaveis-na-base-de-calculo-oficial/ | Sensibilidade das emissões | Dado oficial divulgado pela imprensa |
+| R7  | Tarifas B1 da Enel SP (TUSD e TE). Confirmar na tabela de tarifas da Enel SP e na resolução homologatória da ANEEL: https://www.aneel.gov.br | Preço do kWh antes do reajuste de 2026 (TUSD 0,43244 + TE 0,29274 sem tributos; 0,55438 + 0,37526 com tributos nas faturas B1 consultadas) | Dado extraído de faturas; **confirmar** |
+| R8  | Reajuste da Enel SP a partir de 04/07/2026 (B1: 9,02%): https://cenarioenergia.com.br/2026/06/30/aneel-aprova-reajuste-da-enel-sao-paulo-com-efeito-medio-de-1018/ | Atualização da tarifa para 2026 | Dado oficial divulgado pela imprensa |
+| R9  | ANEEL, portal de dados abertos, base SAMP (arquivo samp-2025.csv): https://dadosabertos.aneel.gov.br | Consumo médio, tarifa média sem tributos e % de baixa renda da Enel SP em 2025 | Dado oficial |
+| R10 | Procel, PPH 2019 (versão web): https://wp.ufpel.edu.br/proben/procel-lanca-versao-web-de-pesquisa-sobre-uso-de-equipamentos-eletricos-nas-residencias-brasileiras/ | Contexto: peso do chuveiro na conta (24% a 35% em pesquisas anteriores do Procel) | Pesquisa oficial |
+| R11 | Idec, guia da Tarifa Social de Energia Elétrica: https://idec.org.br/dicas-e-direitos/saiba-como-pedir-tarifa-social-de-energia-eletrica-e-pague-menos | Orientação para famílias de baixa renda | Orientação (link citado pelo Idec; **conferir o conteúdo**) |
+| R12 | Komeco, ficha técnica da linha Maxime Prime: https://www.komeco.com.br/arquivos/datasheet/aquecimento-solar/coletor-solar/datasheet-coletor-solar-linha-maxime-prime.pdf | Coletor de referência (1,5 Maxime: classe A, 1,46 m2, 121,4 kWh/mês) e alegação de economia de até 70% | Dado de fabricante (classificação Inmetro) e **alegação do fabricante**; texto consultado em 17/11/2026 |
+| R13 | ANEEL / Procel: orientações de uso eficiente do chuveiro elétrico (posição Verão reduz o consumo em cerca de 30% em relação à posição Inverno). https://www.gov.br|
+
+## limites de verificação
+0. Abrir **R5 (MCTI)** no navegador e confirmar 38,5 kg CO2/MWh em 2023.
+1. Conferir R7 na tabela de tarifas da Enel SP (ou na sua própria conta, sem expor dados pessoais).
+2. Substituir o custo estimado do aquecedor solar por **2 a 3 orçamentos reais** de um sistema com um coletor como o de R12 (ou equivalente com classificação Inmetro), colando links ou prints em `dados/orcamentos/`.
+3. Conferir na PPH 2019 (R10) a duração média do banho e o peso do chuveiro, para substituir os dados mais antigos.
+4. Colar em R9 o endereço exato da página do conjunto de dados SAMP usado.
+
+## Fontes descartadas
+Conteúdos genéricos de sites de notícias sem autoria técnica ou com ilustrações geradas por IA foram descartados por não serem verificáveis.

@@ -1,0 +1,21 @@
+id,parametro,valor,unidade,tipo,fonte,observacao
+pessoas,Moradores do domicílio de referência,4,pessoas,Referência (simulação),R1,Caso-base da simulação da Cemig; o assistente recalcula com os dados do usuário
+potencia_chuveiro_w,Potência do chuveiro elétrico,5500,W,Referência (simulação),R1,Chuveiros residenciais variam; o usuário informa a potência do seu
+minutos_banho_atual,Duração do banho no hábito atual,12,min por pessoa por dia,Referência (simulação),R1,As estimativas do Procel ficam entre 8 e 10 min (R2)
+minutos_banho_consciente,Duração do banho com uso consciente,8,min por pessoa por dia,Referência (simulação),R1,
+dias_mes,Dias de uso por mês,30,dias,Premissa,,Um banho por pessoa por dia
+tarifa_tusd_com_tributos,"Preço da TUSD com tributos, B1 Enel SP, antes do reajuste de jul/2026",0.55438,R$/kWh,Dado extraído de fatura,R7,Confirmar na tabela de tarifas da Enel SP ou na resolução homologatória da ANEEL; ICMS de 18% na faixa mais alta
+tarifa_te_com_tributos,"Preço da TE com tributos, B1 Enel SP, antes do reajuste de jul/2026",0.37526,R$/kWh,Dado extraído de fatura,R7,Idem
+reajuste_b1_2026,Reajuste médio da classe residencial B1 da Enel SP a partir de 04/07/2026,0.0902,fração,Dado oficial,R8,Aplicado sobre a tarifa com tributos como estimativa
+solar_area_m2,"Área externa do coletor solar de referência (modelo 1,5 Maxime, Komeco)",1.46,m2,Dado de fabricante,R12,Um coletor de classe A do Inmetro; ficha técnica do fabricante
+solar_pmee_kwh_m2_mes,"Produção mensal específica de energia (PMEe) do coletor de referência, aplicação banho",83.15,kWh/m2.mês,Dado de fabricante (classificação Inmetro),R12,"121,4 kWh/mês ÷ 1,46 m2 = 83,15 kWh/m2.mês, dentro da classe A (acima de 80,3; R4)"
+solar_fator_sistema,"Fator de perdas do sistema (reservatório, tubulação, sazonalidade)",0.8,fração,Estimado,,Estimativa do grupo; ver análise de sensibilidade
+solar_custo_conservador,"Custo do sistema solar, cenário conservador",6000,R$,Estimado,R3,Limite superior da faixa do Idec (R$ 3.000 a R$ 6.000); substituir por orçamento real
+solar_custo_base,"Custo do sistema solar, cenário base",4500,R$,Estimado,R3,Ponto médio da faixa do Idec; substituir por orçamento real
+solar_custo_otimista,"Custo do sistema solar, cenário otimista",3000,R$,Estimado,R3,Limite inferior da faixa do Idec; substituir por orçamento real
+solar_fracao_conservador,"Fração do banho atendida pelo sol, cenário conservador",0.5,fração,Estimado,,Inverno e dias nublados (estimativa do grupo)
+solar_fracao_base,"Fração do banho atendida pelo sol, cenário base",0.6,fração,Estimado,,"Estimativa do grupo, abaixo da produção nominal do coletor e da alegação máxima do fabricante (R12)"
+solar_fracao_otimista,"Fração do banho atendida pelo sol, cenário otimista",0.7,fração,Estimado,R12,Igual à alegação máxima do fabricante (economia de até 70% no aquecimento da água); nenhum cenário a ultrapassa
+horizonte_anos,Período de referência comum para comparar custos,10,anos,Premissa,R3,Igual à menor vida útil indicada para o boiler (10 a 15 anos)
+fator_emissao_kg_kwh,Fator médio de emissão do SIN em 2023,0.0385,kg CO2/kWh,Dado oficial,R5,"38,5 kg CO2 por MWh"
+fator_emissao_2025_kg_kwh,Fator médio de emissão do SIN em abril de 2025,0.0289,kg CO2/kWh,Dado oficial,R6,"28,9 kg CO2 por MWh; usado na sensibilidade"

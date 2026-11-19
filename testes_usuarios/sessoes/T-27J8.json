@@ -1,0 +1,17 @@
+{
+  "codigo": "T-27J8",
+  "inicio": "2026-11-18T23:39:00",
+  "fim": "2026-11-18T23:46:17",
+  "duracao_total_s": 436.5,
+  "opcoes_usadas": [
+    "1",
+    "2",
+    "7"
+  ],
+  "erros_de_entrada": 0,
+  "tempo_s1_segundos": 113.4,
+  "perguntas_livres_topicos": [
+    "solar_como"
+  ],
+  "perguntas_livres_sem_resposta": 0
+}

@@ -1,0 +1,13 @@
+cenario,alternativa,kwh_mes,custo_mes_rs,custo_ano_rs,economia_kwh_ano,economia_ano_rs,investimento_rs,payback_anos,custo_total_horizonte_rs,co2_evitado_kg_ano
+conservador,Situação atual (chuveiro elétrico),132.0,133.7811,1605.3737,0.0,0.0,0.0,,16053.7375,0.0
+conservador,A) Uso consciente (banho mais curto),88.0,89.1874,1070.2492,528.0,535.1246,0.0,,10702.4917,20.328
+conservador,B) Aquecedor solar com apoio elétrico,66.0,66.8906,802.6869,792.0,802.6869,6000.0,7.4749,14026.8687,30.492
+conservador,A+B) Uso consciente e aquecedor solar,44.0,44.5937,535.1246,1056.0,1070.2492,6000.0,5.6062,11351.2458,40.656
+base,Situação atual (chuveiro elétrico),132.0,133.7811,1605.3737,0.0,0.0,0.0,,16053.7375,0.0
+base,A) Uso consciente (banho mais curto),88.0,89.1874,1070.2492,528.0,535.1246,0.0,,10702.4917,20.328
+base,B) Aquecedor solar com apoio elétrico,52.8,53.5125,642.1495,950.4,963.2242,4500.0,4.6718,10921.495,36.5904
+base,A+B) Uso consciente e aquecedor solar,35.2,35.675,428.0997,1161.6,1177.2741,4500.0,3.8224,8780.9967,44.7216
+otimista,Situação atual (chuveiro elétrico),132.0,133.7811,1605.3737,0.0,0.0,0.0,,16053.7375,0.0
+otimista,A) Uso consciente (banho mais curto),88.0,89.1874,1070.2492,528.0,535.1246,0.0,,10702.4917,20.328
+otimista,B) Aquecedor solar com apoio elétrico,39.6,40.1343,481.6121,1108.8,1123.7616,3000.0,2.6696,7816.1212,42.6888
+otimista,A+B) Uso consciente e aquecedor solar,26.4,26.7562,321.0747,1267.2,1284.299,3000.0,2.3359,6210.7475,48.7872
