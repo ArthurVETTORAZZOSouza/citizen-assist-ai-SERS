@@ -162,7 +162,6 @@ def main(pasta=PASTA):
     forms, info = ler_forms(os.path.join(pasta, "respostas_forms.csv"))
     if info.get("faltando"):
         print("ATENÇÃO: não encontrei estas colunas no CSV do formulário:", ", ".join(info["faltando"]))
-        print("Confira se os títulos das perguntas seguem o modelo de mensagem_whatsapp.md.")
     linhas, avisos = montar_linhas(sessoes, forms)
     # preserva a coluna "ajuste_gerado" preenchida à mão em execuções anteriores
     anterior = os.path.join(pasta, "registro_testes.csv")
