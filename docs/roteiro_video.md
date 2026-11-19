@@ -15,4 +15,3 @@ Antes de gravar, rode `python assistente/assistente.py` e deixe o terminal com f
 * Duração máxima de 3 minutos (confira no YouTube após o envio).
 * Publicar como **não listado** e testar o link em uma janela anônima.
 * Mostrar: público e necessidade, análise de consumo, comparação com a fonte renovável, demonstração do assistente, recomendações e limitações.
-* Substituir os trechos entre colchetes pelos resultados **reais** dos testes com usuários.
