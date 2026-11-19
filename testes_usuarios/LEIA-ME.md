@@ -1,11 +1,7 @@
 # Testes com usuários
 
-Esta pasta guarda o roteiro e os registros reais. Os arquivos `registro_testes.csv` 
-começa **vazio de propósito**: deve ser preenchido apenas com testes que de fato aconteceram.
-Para a demonstração automática das entradas inválidas, rode `python assistente/assistente.py --demo`.
+Esta pasta guarda o roteiro e os registros reais dos testes de usabilidade aplicados ao protótipo. Os arquivos `registro_testes.csv` e `resumo_testes.md` consolidam apenas sessões que de fato aconteceram, sem dados pessoais, e os ajustes gerados no código e na base de conhecimento estão documentados em `../CHANGELOG_MELHORIAS.md`. Para a demonstração automática com entradas inválidas, rode `python assistente/assistente.py --demo`.
 
-Use `ficha_sessao.md` para anotar cada sessão e transformá-la em uma linha de `registro_testes.csv`.
+Use `ficha_sessao.md` caso queira registrar uma sessão manualmente em `registro_testes.csv`.
 
-Fluxo automatizado: (formulário e mensagens prontas) -> participantes rodam `python assistente/assistente.py --teste`
--> arquivos em `sessoes/` + CSV do formulário em `respostas_forms.csv` -> `python testes_usuarios/consolidar_testes.py`
-gera `registro_testes.csv` e `resumo_testes.md`.
+Fluxo automatizado utilizado: participantes rodam `python assistente/assistente.py --teste` (gerando os registros anônimos em `sessoes/`) e respondem ao formulário (exportado em `respostas_forms.csv`). Em seguida, `python testes_usuarios/consolidar_testes.py` cruza as duas fontes pelo código da sessão e gera `registro_testes.csv` e `resumo_testes.md`.
