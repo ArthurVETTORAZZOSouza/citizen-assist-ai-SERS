@@ -132,7 +132,7 @@ def resumo(linhas):
     comp, util, t1, err = (_numeros(linhas, c) for c in ("compreensao_1a5", "utilidade_1a5", "tempo_s1_segundos", "erros_de_entrada"))
     media = lambda v: f"{statistics.mean(v):.1f}".replace(".", ",") if v else "sem dados"
     mediana = lambda v: f"{statistics.median(v):.0f}".replace(".", ",") if v else "sem dados"
-    s1_sozinho = sum(1 for l in linhas if "S1: sozinho" in normalizar(l["comentarios"]))
+    s1_sozinho = sum(1 for l in linhas if "s1: sozinho" in normalizar(l["comentarios"]))
     md = [
         "# Resumo dos testes com usuários (gerado por consolidar_testes.py)\n",
         f"* Participantes: **{n}** ({g} do grupo e {e} externos).",
