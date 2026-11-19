@@ -18,12 +18,11 @@ Acesso em 13/11/2026. Antes de entregar, **abra cada link e confira o número us
 | R12 | Komeco, ficha técnica da linha Maxime Prime: https://www.komeco.com.br/arquivos/datasheet/aquecimento-solar/coletor-solar/datasheet-coletor-solar-linha-maxime-prime.pdf | Coletor de referência (1,5 Maxime: classe A, 1,46 m2, 121,4 kWh/mês) e alegação de economia de até 70% | Dado de fabricante (classificação Inmetro) e **alegação do fabricante**; texto consultado em 17/11/2026 |
 | R13 | ANEEL / Procel: orientações de uso eficiente do chuveiro elétrico (posição Verão reduz o consumo em cerca de 30% a 40% em relação à posição Inverno): [https://www.gov.br](https://www.gov.br) | Estimativa de redução de consumo com chave seletora Verão/Inverno | Orientação pública; texto da página consultado em 18/11/2026 |
 
-## Referências consultadas em novembro de 2026
-0. R5 (MCTI) o fator de 38,5 kg CO2/MWh em 2023.
-1. Conferir R7 na tabela de tarifas da Enel SP (ou na sua própria conta, sem expor dados pessoais).
-2. Substituir o custo estimado do aquecedor solar por **2 a 3 orçamentos reais** de um sistema com um coletor como o de R12 (ou equivalente com classificação Inmetro), colando links ou prints em `dados/orcamentos/`.
-3. Conferir na PPH 2019 (R10) a duração média do banho e o peso do chuveiro, para substituir os dados mais antigos.
-4. Colar em R9 o endereço exato da página do conjunto de dados SAMP usado.
+## Limites de verificação e premissas assumidas
+* **Fator de emissão (R5 e R6):** adotou-se o fator oficial do MCTI de 2023 (38,5 kg CO2/MWh) como referência principal e o valor de abril de 2025 (28,9 kg CO2/MWh) para sensibilidade.
+* **Tarifa residencial (R7 e R8):** a tarifa com tributos utilizada como padrão (R$ 1,01/kWh) é uma estimativa construída a partir de faturas B1 da Enel SP atualizadas pelo reajuste de 9,02% de julho de 2026; no assistente, o usuário pode informar o valor exato da sua própria conta.
+* **Custo do aquecedor solar (R3 e R12):** os cenários usam a faixa de referência do Idec (R$ 3.000 a R$ 6.000) associada a um coletor real classe A do Inmetro, sem orçamentos comerciais locais; o assistente permite inserir um orçamento real para recalcular o retorno.
+* **Hábitos de banho e base SAMP (R9 e R10):** os dados da PPH/Procel são usados apenas como contexto do peso do chuveiro na conta, e os indicadores da Enel SP vêm do conjunto SAMP 2025 do Portal de Dados Abertos da ANEEL.
 
 ## Fontes descartadas
 Conteúdos genéricos de sites de notícias sem autoria técnica ou com ilustrações geradas por IA foram descartados por não serem verificáveis.
