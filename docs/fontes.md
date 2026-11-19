@@ -19,7 +19,8 @@ Acesso em 13/11/2026. Antes de entregar, **abra cada link e confira o número us
 | R13 | ANEEL / Procel: orientações de uso eficiente do chuveiro elétrico (posição Verão reduz o consumo em cerca de 30% a 40% em relação à posição Inverno): [https://www.gov.br](https://www.gov.br) | Estimativa de redução de consumo com chave seletora Verão/Inverno | Orientação pública; texto da página consultado em 18/11/2026 |
 
 ## Referências consultadas em novembro de 2026
-0. Conferir em R5 (MCTI) o fator de 38,5 kg CO2/MWh em 2023.1. Conferir R7 na tabela de tarifas da Enel SP (ou na sua própria conta, sem expor dados pessoais).
+0. R5 (MCTI) o fator de 38,5 kg CO2/MWh em 2023.
+1. Conferir R7 na tabela de tarifas da Enel SP (ou na sua própria conta, sem expor dados pessoais).
 2. Substituir o custo estimado do aquecedor solar por **2 a 3 orçamentos reais** de um sistema com um coletor como o de R12 (ou equivalente com classificação Inmetro), colando links ou prints em `dados/orcamentos/`.
 3. Conferir na PPH 2019 (R10) a duração média do banho e o peso do chuveiro, para substituir os dados mais antigos.
 4. Colar em R9 o endereço exato da página do conjunto de dados SAMP usado.
