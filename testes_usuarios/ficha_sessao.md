@@ -40,7 +40,7 @@ Dicas:
 * Guarde esta ficha (papel ou foto da anotação **sem identificar a pessoa**) até a entrega, para o caso de o professor pedir.
 
 ## Depois dos testes: o que fazer com as sugestões
-Nem toda sugestão precisa virar mudança. Em `ajustes_realizados.md`, registre **todas** com um destes status:
+Nem toda sugestão precisa virar mudança. Em `CHANGELOG_MELHORIAS.md`, registre **todas** com um destes status:
 * **Implementado:** descreva a mudança (arquivo ou commit).
 * **Não implementado:** explique o motivo (fora do escopo, não cabe no prazo, contraria uma fonte) e marque como **melhoria futura**.
 
