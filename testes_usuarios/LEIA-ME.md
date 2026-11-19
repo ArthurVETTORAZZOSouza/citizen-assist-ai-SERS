@@ -1,7 +1,7 @@
 # Testes com usuários
 
-Esta pasta guarda o roteiro e os registros reais. Os arquivos `registro_testes.csv` e `ajustes_realizados.md`
-começam **vazios de propósito**: devem ser preenchidos apenas com testes que de fato aconteceram.
+Esta pasta guarda o roteiro e os registros reais. Os arquivos `registro_testes.csv` 
+começa **vazio de propósito**: deve ser preenchido apenas com testes que de fato aconteceram.
 Para a demonstração automática das entradas inválidas, rode `python assistente/assistente.py --demo`.
 
 Use `ficha_sessao.md` para anotar cada sessão e transformá-la em uma linha de `registro_testes.csv`.
