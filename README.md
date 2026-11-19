@@ -62,7 +62,7 @@ dados/                 premissas.csv, samp_enel_sp_2025.csv, base intermediária
 docs/                  fontes.md, justificativas_recomendacoes.md, roteiro_video.md
 testes/                testes automáticos
 testes_usuarios/       roteiro, ficha, formulário, sessões, consolidar_testes.py, registro e ajustes
-entrega.txt            arquivo de entrega do Portal
+CHANGELOG_MELHORIAS.md registro dos ciclos de melhoria a partir dos testes
 ```
 
 ## 5. Dados utilizados, origem e premissas
