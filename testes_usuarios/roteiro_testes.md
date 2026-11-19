@@ -26,4 +26,4 @@ Objetivo: verificar se as orientações do assistente são **compreensíveis** e
 1 = discordo totalmente, 3 = neutro, 5 = concordo totalmente.
 
 ## Depois de cada sessão
-Anotar em `ajustes_realizados.md` qual comentário gerou qual mudança no assistente (ou por que não mudou).
+Anotar em `CHANGELOG_MELHORIAS.md` qual comentário gerou qual mudança no assistente (ou por que não mudou).
