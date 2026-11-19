@@ -54,3 +54,20 @@ Ao perguntar quando o aquecedor solar compensa, o usuário recebe tanto os crit�
 
 ### 3. Resultado Esperado (Pós-Melhoria)
 As respostas da **Opção 7** passam a ser exibidas uma única vez de forma limpa, e usuários que buscam informações sobre benefícios sociais recebem os critérios exatos para verificar seu direito na conta de luz.
+
+
+---
+
+## Ciclo 4 — Teste com Usuário: T-XLSF (Perfil: Dúvida sobre Tarifa Social e Limite de Consumo)
+
+### 1. Cenário e Problema Identificado
+* **Contexto do teste:** Na **Opção 7 (Perguntar com as minhas palavras)**, o participante (externo, faixa 18–29) perguntou: *"Como funciona a Tarifa Social e qual o limite de consumo?"*.
+* **Falha observada:** O motor de busca (`responder_texto`) pontua os tópicos pela soma do comprimento das palavras-chave encontradas (`len(k)`) e mantém o primeiro tópico em caso de empate (`p > pontos`). Como a expressão genérica `"como funciona"` estava cadastrada no tópico `solar_como` (que aparece antes de `baixa_renda` na base) e empatava em pontuação com `"tarifa social"`, o assistente respondeu sobre o funcionamento do aquecedor solar em vez da Tarifa Social.
+
+### 2. Melhorias Implementadas
+* **Desambiguação de palavras-chave (`base_conhecimento.json`):**
+  * Substituição da palavra-chave genérica `"como funciona"` por `"como funciona o aquecedor"` no tópico `solar_como`, restringindo o termo ao contexto do aquecimento solar.
+  * Inclusão das palavras-chave `"limite de consumo"` e `"220 kwh"` no tópico `baixa_renda` para reforçar a correspondência em perguntas sobre regras e faixas da Tarifa Social.
+
+### 3. Resultado Esperado (Pós-Melhoria)
+Ao repetir a pergunta *"Como funciona a Tarifa Social e qual o limite de consumo?"*, não há mais conflito com `solar_como`: o assistente identifica corretamente o tópico `baixa_renda` e apresenta os critérios do CadÚnico/BPC e o limite mensal de 220 kWh.

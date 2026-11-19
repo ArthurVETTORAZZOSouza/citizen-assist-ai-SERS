@@ -16,10 +16,10 @@ Acesso em 13/11/2026. Antes de entregar, **abra cada link e confira o número us
 | R10 | Procel, PPH 2019 (versão web): https://wp.ufpel.edu.br/proben/procel-lanca-versao-web-de-pesquisa-sobre-uso-de-equipamentos-eletricos-nas-residencias-brasileiras/ | Contexto: peso do chuveiro na conta (24% a 35% em pesquisas anteriores do Procel) | Pesquisa oficial |
 | R11 | Idec, guia da Tarifa Social de Energia Elétrica: https://idec.org.br/dicas-e-direitos/saiba-como-pedir-tarifa-social-de-energia-eletrica-e-pague-menos | Orientação para famílias de baixa renda | Orientação (link citado pelo Idec; **conferir o conteúdo**) |
 | R12 | Komeco, ficha técnica da linha Maxime Prime: https://www.komeco.com.br/arquivos/datasheet/aquecimento-solar/coletor-solar/datasheet-coletor-solar-linha-maxime-prime.pdf | Coletor de referência (1,5 Maxime: classe A, 1,46 m2, 121,4 kWh/mês) e alegação de economia de até 70% | Dado de fabricante (classificação Inmetro) e **alegação do fabricante**; texto consultado em 17/11/2026 |
-| R13 | ANEEL / Procel: orientações de uso eficiente do chuveiro elétrico (posição Verão reduz o consumo em cerca de 30% em relação à posição Inverno). https://www.gov.br|
+| R13 | ANEEL / Procel: orientações de uso eficiente do chuveiro elétrico (posição Verão reduz o consumo em cerca de 30% a 40% em relação à posição Inverno): [https://www.gov.br](https://www.gov.br) | Estimativa de redução de consumo com chave seletora Verão/Inverno | Orientação pública; texto da página consultado em 18/11/2026 |
 
-## limites de verificação
-0. Abrir **R5 (MCTI)** no navegador e confirmar 38,5 kg CO2/MWh em 2023.
+## Referências consultadas em novembro de 2026
+0. R5 (MCTI)** no navegador 38,5 kg CO2/MWh em 2023.
 1. Conferir R7 na tabela de tarifas da Enel SP (ou na sua própria conta, sem expor dados pessoais).
 2. Substituir o custo estimado do aquecedor solar por **2 a 3 orçamentos reais** de um sistema com um coletor como o de R12 (ou equivalente com classificação Inmetro), colando links ou prints em `dados/orcamentos/`.
 3. Conferir na PPH 2019 (R10) a duração média do banho e o peso do chuveiro, para substituir os dados mais antigos.

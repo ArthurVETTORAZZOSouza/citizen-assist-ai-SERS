@@ -6,6 +6,6 @@ Para a demonstração automática das entradas inválidas, rode `python assisten
 
 Use `ficha_sessao.md` para anotar cada sessão e transformá-la em uma linha de `registro_testes.csv`.
 
-Fluxo automatizado: `mensagem_whatsapp.md` (formulário e mensagens prontas) -> participantes rodam `python assistente/assistente.py --teste`
+Fluxo automatizado: (formulário e mensagens prontas) -> participantes rodam `python assistente/assistente.py --teste`
 -> arquivos em `sessoes/` + CSV do formulário em `respostas_forms.csv` -> `python testes_usuarios/consolidar_testes.py`
 gera `registro_testes.csv` e `resumo_testes.md`.

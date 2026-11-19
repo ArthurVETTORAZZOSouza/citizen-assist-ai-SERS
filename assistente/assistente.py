@@ -271,24 +271,6 @@ def responder_texto(pergunta):
             melhor, pontos = t, p
     return melhor["id"] if melhor else None
 
-def responder_texto(pergunta):
-    """Entende uma pergunta livre por palavras-chave, ignorando termos negados."""
-    texto = normalizar(pergunta[:300])
-    if not texto:
-        return None
-
-    # Remove trechos logo após negações para evitar falsos positivos (ex: "não posso instalar solar")
-    texto_filtrado = re.sub(r"\b(nao|sem|dispenso|nunca)\b[^,.;!?]*", "", texto).strip()
-    if not texto_filtrado:
-        texto_filtrado = texto
-
-    melhor, pontos = None, 0
-    for t in BASE["topicos"]:
-        # expressões mais longas (ex.: "tarifa social") pesam mais que palavras soltas (ex.: "tarifa")
-        p = sum(len(k) for k in t["palavras_chave"] if k in texto_filtrado)
-        if p > pontos:
-            melhor, pontos = t, p
-    return melhor["id"] if melhor else None
 
 
 def opcao_pergunta(perfil):

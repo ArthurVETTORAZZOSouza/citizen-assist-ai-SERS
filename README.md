@@ -50,7 +50,7 @@ Requer Python 3.9 ou superior. Execute os comandos dentro da pasta que contém e
 python assistente/assistente.py            # modo interativo
 python assistente/assistente.py --demo     # demonstração roteirizada (inclui entradas inválidas)
 python calculos/comparacao_alternativas.py # recalcula a comparação, os CSVs e os gráficos
-python -m unittest discover -s testes -v   # testes automáticos (33 testes)
+python -m unittest discover -s testes -v   # testes automáticos (34 testes)
 ```
 Os gráficos e o reprocessamento da base SAMP usam `matplotlib` e `pandas` (`pip install -r requirements.txt`).
 
@@ -98,13 +98,13 @@ Cenários do aquecedor solar: conservador (50% de sol, R$ 6.000) retorno de 7,5 
 Detalhadas em [`docs/justificativas_recomendacoes.md`](docs/justificativas_recomendacoes.md), considerando **custos, viabilidade e impactos ambientais**. Em resumo: começar pelo banho mais curto (custo zero); considerar o aquecedor solar em casas com 3 ou mais moradores e pedir orçamentos; o ganho de CO2 é pequeno porque a rede elétrica brasileira já é limpa, então o argumento principal do solar é financeiro.
 
 ## 8. Como a análise sustenta o assistente
-| Resposta do assistente | Origem na análise |
-|---|---|
-| Custo do chuveiro (opção 1) | `calculos/energia.py`: energia e custo, com as premissas de `dados/premissas.csv` |
+| Resposta do assistente | Origem na análise                                                                                            |
+|---|--------------------------------------------------------------------------------------------------------------|
+| Custo do chuveiro (opção 1) | `calculos/energia.py`: energia e custo, com as premissas de `dados/premissas.csv`                            |
 | Comparação e recomendação (opção 2) | `comparar_alternativas()` e `cenarios_solares()` (os mesmos usados em `calculos/comparacao_alternativas.py`) |
-| Dados da Enel SP (opção 5) | `dados/samp_enel_sp_2025.csv` (base SAMP da ANEEL) |
-| Custos, retorno e emissões nas respostas livres | `assistente/base_conhecimento.json`, com as referências R1 a R12 |
-| Avisos e limitações | Texto fixo `AVISO` em todas as respostas com números |
+| Dados da Enel SP (opção 5) | `dados/samp_enel_sp_2025.csv` (base SAMP da ANEEL)                                                           |
+| Custos, retorno e emissões nas respostas livres | `assistente/base_conhecimento.json`, com as referências R1 a R13                                             |
+| Avisos e limitações | Texto fixo `AVISO` em todas as respostas com números                                                         |
 
 ## 9. Referências
 Lista completa, com o que cada fonte sustenta, em [`docs/fontes.md`](docs/fontes.md) (R1 a R13: Cemig/Agência Minas, Procel, Idec, Inmetro/PBE, Komeco, MCTI, Enel SP/ANEEL e base SAMP da ANEEL).
